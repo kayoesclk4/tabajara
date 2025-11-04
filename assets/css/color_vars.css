@@ -1,0 +1,58 @@
+:root {
+    /* Azul Principal (Médio-Escuro, mas Leve) */
+    --bs-primary: #1A5276; /* Um azul mais suave e levemente acinzentado */
+    /* Azul Secundário (Para contraste ou destaque) */
+    --bs-secondary: #2E86C1; /* Um azul um pouco mais claro e vibrante */
+    /* Cor de destaque (Botões, Links) */
+    --bs-info: #5DADE2; /* Um azul mais claro para botões e links */
+    /* Cor de fundo leve */
+    --bs-light: #f8f9fa;
+    /* Cor de texto */
+    --bs-dark: #212529;
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
+
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+    color: var(--bs-secondary) !important;
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--bs-primary);
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+}
+
+.btn-secondary {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
