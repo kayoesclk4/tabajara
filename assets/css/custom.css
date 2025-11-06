@@ -1,29 +1,25 @@
-.projects {
+.projects a {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 30px; /* espaçamento entre linhas */
 }
 
-.projects > a {
-    flex: 1 1 calc(33.333% - 1rem);
-    display: flex;
-    text-decoration: none;
-}
-
-.projects .card {
+.projects a .card {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.projects .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.projects a .card-img-top {
+    width: 100%;
+    aspect-ratio: 4/3; /* mantém proporção da imagem */
+    object-fit: cover; /* recorta a imagem se necessário, sem distorcer */
 }
 
-.projects .card-img-top {
-    width: 100%;
-    aspect-ratio: 4/3;
-    object-fit: cover;
+.projects a .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* mantém título e botão alinhados */
+    flex-grow: 1;
 }
