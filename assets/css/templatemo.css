@@ -115,7 +115,7 @@ p, a {font-weight: 400;}
   left: 0;
   width: 100%;
   height: 100%; /* altura do próprio banner */
-  background-color: rgba(0,0,0,0.4); /* quanto mais próximo de 1, mais escuro */
+  background-color: rgba(0,0,0,0.6); /* quanto mais próximo de 1, mais escuro */
   z-index: 1; 
 }
 
