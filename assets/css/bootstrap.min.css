@@ -5311,7 +5311,7 @@ fieldset:disabled .btn {
 }
 
 .card-img-top {
-    height: 200px;       /* define altura fixa do card de imagem */
+    height: 230px;       /* define altura fixa do card de imagem */
     object-fit: cover;   /* mantém proporção e corta excesso sem distorcer */
     width: 100%;         /* já existe, mas reforça que ocupa toda largura */
 }
