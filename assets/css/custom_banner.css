@@ -23,6 +23,7 @@
     text-align: center;
     color: white; /* Para garantir que o texto seja visível sobre a imagem */
     z-index: 10;
+    padding-top: 60px; /* Espaço para a navbar */
 }
 
 /* Estilo para o overlay escuro (se necessário, para melhorar a legibilidade) */
@@ -54,11 +55,6 @@
     position: fixed;
     width: 100%;
     z-index: 100;
-}
-
-/* Ajuste para o corpo da página para compensar a navbar fixa */
-body {
-    padding-top: 60px; /* Ajuste a altura da navbar conforme necessário */
 }
 
 /* Ajuste para a seção de serviços para caber na tela */
