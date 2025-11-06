@@ -1,29 +1,29 @@
-.row.projects {
+.projects {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.row.projects > [class*="col-"] {
+.projects > a {
+    flex: 1 1 calc(33.333% - 1rem);
+    display: flex;
+    text-decoration: none;
+}
+
+.projects .card {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
-.row.projects .card {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.row.projects .card-img-top {
-    width: 100%;
-    aspect-ratio: 4/3;
-    object-fit: cover;
-}
-
-.row.projects .card-body {
+.projects .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1;
+}
+
+.projects .card-img-top {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
 }
