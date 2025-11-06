@@ -23,7 +23,6 @@
     text-align: center;
     color: white; /* Para garantir que o texto seja visível sobre a imagem */
     z-index: 10;
-    padding-top: 60px; /* Espaço para a navbar */
 }
 
 /* Estilo para o overlay escuro (se necessário, para melhorar a legibilidade) */
