@@ -105,6 +105,23 @@ p, a {font-weight: 400;}
   height: 100%;
   width: 100%;
 }
+
+#work_banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* ajuste a opacidade para mais ou menos escuro */
+    z-index: 1;
+}
+
+#work_banner .banner-vertical-center-work {
+    position: relative;
+    z-index: 2; /* garante que o conteúdo fique acima do overlay */
+}
+
 .progress {
   height: 8px;
 }
