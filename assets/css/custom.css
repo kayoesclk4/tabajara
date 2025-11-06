@@ -1,0 +1,40 @@
+/* Faz os cards da mesma altura por linha */
+.row.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* espaçamento entre os cards */
+}
+
+.row.projects > a {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(33.333% - 1rem); /* 3 cards por linha, ajustável */
+    text-decoration: none;
+}
+
+/* Card interno flexível */
+.row.projects .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Card body ocupa o restante do card */
+.row.projects .card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Imagem ajustada proporcionalmente sem distorcer */
+.row.projects .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Mantém o botão/ver produto no final do card */
+.row.projects .card-body span {
+    margin-top: auto;
+}
