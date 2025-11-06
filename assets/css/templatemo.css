@@ -100,26 +100,28 @@ p, a {font-weight: 400;}
 }
 /* About */
 #work_banner {
+  position: relative;
   background-image: url('./../img/bannerIndex.jpg');
-  background-position: center center; background-size: cover;
+  background-position: center center;
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
 
 #work_banner::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* ajuste a opacidade para mais ou menos escuro */
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* altura do próprio banner */
+  background-color: rgba(0,0,0,0.4); /* quanto mais próximo de 1, mais escuro */
+  z-index: 1; 
 }
 
-#work_banner .banner-vertical-center-work {
-    position: relative;
-    z-index: 2; /* garante que o conteúdo fique acima do overlay */
+.banner-vertical-center-work {
+  position: relative;
+  z-index: 2; /* garante que o conteúdo fique acima do overlay */
 }
 
 .progress {
