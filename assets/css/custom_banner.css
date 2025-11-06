@@ -4,7 +4,7 @@
     /* A altura da navbar é de aproximadamente 60px, mas vamos usar 100vh para garantir que caiba na tela e ajustar o padding/margin */
     min-height: 50vh;
     height: auto;
-    background-image: url('./../img/banner-bg-01.jpg'); /* Usando uma imagem existente como placeholder */
+    background-image: url('./../img/bannerIndex.jpg'); /* Usando uma imagem existente como placeholder */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
