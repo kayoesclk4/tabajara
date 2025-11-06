@@ -5310,6 +5310,12 @@ fieldset:disabled .btn {
     border-top-right-radius: calc(.25rem - 1px)
 }
 
+.card-img-top {
+    height: 200px;       /* define altura fixa do card de imagem */
+    object-fit: cover;   /* mantém proporção e corta excesso sem distorcer */
+    width: 100%;         /* já existe, mas reforça que ocupa toda largura */
+}
+
 .card-img,
 .card-img-bottom {
     border-bottom-right-radius: calc(.25rem - 1px);
