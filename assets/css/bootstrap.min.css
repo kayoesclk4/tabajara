@@ -5190,6 +5190,7 @@ fieldset:disabled .btn {
     -webkit-box-orient: vertical;
     flex-direction: column;
     min-width: 0;
+    min-height: 350px;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
